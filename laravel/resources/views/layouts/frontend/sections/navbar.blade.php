@@ -1,6 +1,6 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                         <i class="bi-back"></i>
                         <span>Talk Scholarship</span>
                     </a>
@@ -16,15 +16,15 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link" href="{{ url('/') }}">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Register</a>
+                                <a class="nav-link" href="{{ route('register') }}">Register</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Check Your Results</a>
+                                <a class="nav-link" href="{{ route('hasil') }}">Check Your Results</a>
                             </li>
 
                             <li class="nav-item">

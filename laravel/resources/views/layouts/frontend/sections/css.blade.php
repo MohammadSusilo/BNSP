@@ -10,3 +10,5 @@
         <link href="{{ asset('frontend/css/bootstrap-icons.css') }}" rel="stylesheet">
 
         <link href="{{ asset('frontend/css/templatemo-topic-listing.css') }}" rel="stylesheet">   
+
+        @stack('css')

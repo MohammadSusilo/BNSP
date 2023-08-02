@@ -1,30 +1,28 @@
 <?php
-require_once 'koneksi.php';
-// Ambil Input Form
-$nama = $_POST["nama"];
-$email = $_POST["email"];
-$hp = $_POST["hp"];
-$semester = $_POST["semester"];
-$ipk = $_POST["ipk"];
-$beasiswa = $_POST["beasiswa"];
-$berkas = $_POST["berkas"];
-if (isset($_POST['insert'])) {
-$table = "tb_daftar";
-$nama = $_POST["modal-nama"];
-$email = $_POST["modal-email"];
-$hp = $_POST["modal-hp"];
-$semester = $_POST["modal-semester"];
-$ipk = $_POST["modal-ipk"];
-$beasiswa = $_POST["modal-beasiswa"];
-$berkas = $_POST["modal-berkas"];
-// Insert Data
-$query = "INSERT INTO `tb_daftar` (`nama`, `email`, `hp`,
-`semester`, `ipk`, `beasiswa`, `berkas`) VALUES ('$nama', '$email',
-'$hp', '$semester', '$ipk', '$beasiswa', '$berkas') ";
-$result = $db->query($query);
-// BALIK KE HOME
-header("Location: index.php");
-}
+    require_once 'koneksi.php';
+    // Ambil Input Form
+    $nama = $_POST["nama"];
+    $email = $_POST["email"];
+    $hp = $_POST["hp"];
+    $semester = $_POST["semester"];
+    $ipk = $_POST["ipk"];
+    $beasiswa = $_POST["beasiswa"];
+    $berkas = $_POST["berkas"];
+    if (isset($_POST['insert'])) {
+        $table = "tb_daftar";
+        $nama = $_POST["modal-nama"];
+        $email = $_POST["modal-email"];
+        $hp = $_POST["modal-hp"];
+        $semester = $_POST["modal-semester"];
+        $ipk = $_POST["modal-ipk"];
+        $beasiswa = $_POST["modal-beasiswa"];
+        $berkas = $_POST["modal-berkas"];
+            // Insert Data
+            $query = "INSERT INTO `tb_daftar` (`nama`, `email`, `hp`, `semester`, `ipk`, `beasiswa`, `berkas`) VALUES ('$nama', '$email', '$hp', '$semester', '$ipk', '$beasiswa', '$berkas') ";
+            $result = $db->query($query);
+        // BALIK KE HOME
+        header("Location: index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

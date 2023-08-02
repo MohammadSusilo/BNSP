@@ -46,7 +46,7 @@
                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
                                     </div>
 
-                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                    <img src="{{ asset('frontend/images/topics/undraw_Remote_design_team_re_urdx.png') }}" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="col-lg-6 col-12">
                             <div class="custom-block custom-block-overlay">
                                 <div class="d-flex flex-column h-100">
-                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+                                    <img src="{{ asset('frontend/images/businesswoman-using-tablet-analysis.jpg') }}" class="custom-block-image img-fluid" alt="">
 
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
@@ -134,7 +134,7 @@
                                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
                                                     </div>
 
-                                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="{{ asset('frontend/images/topics/undraw_Remote_design_team_re_urdx.png') }}" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -152,7 +152,7 @@
                                                         <span class="badge bg-design rounded-pill ms-auto">75</span>
                                                     </div>
 
-                                                    <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="{{ asset('frontend/images/topics/undraw_Redesign_feedback_re_jvm0.png') }}" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -170,7 +170,7 @@
                                                         <span class="badge bg-design rounded-pill ms-auto">100</span>
                                                     </div>
 
-                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="{{ asset('frontend/images/topics/colleagues-working-cozy-office-medium-shot.png') }}" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@
                                                             <span class="badge bg-advertising rounded-pill ms-auto">30</span>
                                                         </div>
 
-                                                        <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                                                        <img src="{{ asset('frontend/images/topics/undraw_online_ad_re_ol62.png') }}" class="custom-block-image img-fluid" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -210,7 +210,7 @@
                                                             <span class="badge bg-advertising rounded-pill ms-auto">65</span>
                                                         </div>
 
-                                                        <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                                        <img src="{{ asset('frontend/images/topics/undraw_Group_video_re_btu7.png') }}" class="custom-block-image img-fluid" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -228,7 +228,7 @@
                                                             <span class="badge bg-advertising rounded-pill ms-auto">50</span>
                                                         </div>
 
-                                                        <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
+                                                        <img src="{{ asset('frontend/images/topics/undraw_viral_tweet_gndb.png') }}" class="custom-block-image img-fluid" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -313,7 +313,7 @@
                         <div class="clearfix"></div>
 
                         <div class="col-lg-5 col-12">
-                            <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                            <img src="{{ asset('frontend/images/faq_graphic.jpg') }}" class="img-fluid" alt="FAQs">
                         </div>
 
                         <div class="col-lg-6 col-12 m-auto">

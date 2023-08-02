@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\bnspController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/confirm', function () {
+    return view('confirm');
+})->name('confirm');
+
+Route::resource('bnsp', bnspController::class);
+
+Route::get('/hasil', function () {
+    return view('hasil');
+})->name('hasil');
 
 Auth::routes();
 
